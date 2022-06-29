@@ -9,15 +9,38 @@ body {
 .icon {
   width: 65px;
   height: 65px;
-  background-color: #fff;
-  background-image: url(img/anchor.png);
   background-repeat: no-repeat;
   background-position: center center;
   display: inline-block;
   margin-bottom: 15px;
 }
+.anchor {
+  background-image: url(img/anchor.png);
+}
+.wrapper:hover .anchor {
+  background-image: url(img/anchor_white.png);
+}
+.wrapper:hover .diamond {
+  background-image: url(img/diamond_white.png);
+}
+.wrapper:hover .glasses {
+  background-image: url(img/glasses_white.png);
+}
+.wrapper:hover .monitor {
+  background-image: url(img/monitor_white.png);
+}
+.diamond {
+  background-image: url(img/diamond.png);
+}
+.glasses {
+  background-image: url(img/glasses.png);
+}
+.monitor {
+  background-image: url(img/monitor.png);
+}
 .wrapper:hover {
   background-color: #0ec8cb;
+  color: #ffffff;
 }
 body {
   font-family: "PT Sans", sans-serif;
